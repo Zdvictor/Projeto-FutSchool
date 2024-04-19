@@ -1,0 +1,140 @@
+
+/*Background Capa*/
+#home{
+
+	background: #ffc107;
+	color: white;
+}
+
+
+
+/*Formatacao Final De Cada Section*/
+
+.caixa{
+
+	padding: 60px 0px;
+	border-bottom: 1px solid #e5e5e5;
+	margin: 30px;
+}
+
+
+/*Formatacao Capa*/
+
+.espaco{
+
+	margin-top: 50px;
+}
+
+
+
+
+
+
+
+/*Formatacao Texto*/
+
+
+.barra{
+
+	width: 1px;
+	background: white;
+	margin: 5px 20px;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover{
+
+	color: blue;
+}
+
+
+.navbar-light .navbar-toggler{
+
+
+	border-color: rgba(255, 255, 255, 0.7);
+
+
+}
+
+
+input#test{
+
+
+	border-radius: 20px;
+
+}
+
+
+
+
+
+
+
+/*Media Queries*/
+
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+/*// No media query since this is the default in Bootstrap8*/
+
+	@media (max-width: 575.98px) { 
+
+		.celular{
+
+		margin-top: 20px;
+		border-radius: 20px;
+	}
+
+
+	.diminuir{
+
+		margin: 30px auto ;
+	}
+
+	
+
+		
+	
+ }
+	
+
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+
+
+		.btn-custom:hover{
+
+		background-color: white;
+		border-radius: 20px;
+		transition: background 0.4s;
+
+	}
+	
+
+
+
+
+ }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+	
+
+	}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+	
+
+ }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+	
+
+ }
